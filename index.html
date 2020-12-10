@@ -623,8 +623,8 @@
             const mouse = document.querySelector('.cursor');
 
             function cursor(e) {
-                mouse.style.top = e.pageY + 'px';
-                mouse.style.left = e.pageX + 'px';
+                mouse.style.top = (e.pageY - 25) + 'px';
+                mouse.style.left = (e.pageX - 25) + 'px';
             }
         </script>
         <!----======================================== //..CURSOR JS ======================================================================-->
